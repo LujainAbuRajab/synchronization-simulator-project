@@ -1,10 +1,10 @@
 # :card_file_box: **Synchronization Simulator Project**
 
+## :white_medium_square: **Overview**
 The **Synchronization Simulator Project** is designed to demonstrate and compare the effects of synchronization on shared data accessed by multiple concurrent threads. 
 This project explores how synchronization mechanisms can ensure data consistency in a multithreaded environment.
 
 
----
 
 ## :white_medium_square: **Objectives**
 
@@ -12,7 +12,7 @@ This project explores how synchronization mechanisms can ensure data consistency
 + Compare the results with and without synchronization.
 + Highlight the importance of synchronization tools like semaphores in managing access to critical sections.
 
----
+
 
 ## :white_medium_square: **Features**
 
@@ -33,9 +33,8 @@ This project explores how synchronization mechanisms can ensure data consistency
         - Producers increment `X` but stop if it exceeds `1800`.
         - Consumers decrement `X` but stop if it drops below `0`.
 
----
 
-## :white_medium_square: **How It Works**
+## :white_medium_square: **How It Works?**
 1. **Without Synchronization:**
     - Producer and consumer threads access the shared variable concurrently without any synchronization.
     - Results vary depending on the order of thread execution.    
@@ -45,8 +44,8 @@ This project explores how synchronization mechanisms can ensure data consistency
 3. **Execution Flow:**
     - Randomized thread generation with random numbers of operations.
     - Results are displayed for both synchronized and non-synchronized executions.
+  
 
----
 
 ## :white_medium_square: **Implementation**
 ### Classes and Responsibilities
@@ -84,7 +83,7 @@ This project explores how synchronization mechanisms can ensure data consistency
   - Results are consistent and align with the conditions set for the shared variable.
   - Demonstrates the effectiveness of semaphore-based synchronization.
 
----
+
 ## :bulb: **Learning Outcomes**
   - Understand the impact of synchronization in multithreaded systems.
   - Analyze the behavior of shared data with and without synchronization tools.
